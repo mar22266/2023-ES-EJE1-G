@@ -1,8 +1,8 @@
 public class Helados extends Heladeria{
-    private int tamanio;
+    private String tamanio;
     private String saborHelado;
 
-    public Helados(int tamanio,String saborHelado) {
+    public Helados(String tamanio,String saborHelado) {
         this.tamanio = tamanio;
         this.saborHelado = saborHelado;
     }
