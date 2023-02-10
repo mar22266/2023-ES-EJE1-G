@@ -1,22 +1,22 @@
 public class Heladeria {
 
-    public helado HeladoVainilla(){
-        return new heladoVainilla(5, "Vainilla");
+    public Helados HeladoVainilla(){
+        return new Helados(5, "Vainilla");
     }
 
-    public helado HeladoChocolate(){
-        return new heladoChocolate(5, "Chocolate");
+    public Helados HeladoChocolate(){
+        return new Helados(5, "Chocolate");
     }
 
-    public helado HeladoFresa(){
-        return new heladoFresa(5, "Fresa");
+    public Helados HeladoFresa(){
+        return new Helados(5, "Fresa");
     }
 
-    public helado HeladoMango(){
-        return new heladoMango(5, "Mango");
+    public Helados HeladoMango(){
+        return new Helados(5, "Mango");
     }
 
-    public helado HeladoNuez(){
-        return new heladoNuez(5, "Nuez");
+    public Helados HeladoNuez(){
+        return new Helados(5, "Nuez");
     }
 }
